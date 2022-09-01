@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div className="fixed top-0 bg-sky-500 h-24 w-full flex flex-row justify-between items-center px-10">
+        <div className="fixed top-0 bg-neutral-50 h-24 w-full flex flex-row justify-between items-center px-10">
             <div>
                 Thomas Runyan
             </div>
