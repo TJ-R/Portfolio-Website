@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full text-stone-700">
       <Navbar />
       <About />
       <Projects />
