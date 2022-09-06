@@ -1,5 +1,3 @@
-
-
 const Contact = () => {
   return (
     <div id="contact" className="pt-28 h-screen w-full bg-stone-200 flex flex-row justify-center items-center text-left">
