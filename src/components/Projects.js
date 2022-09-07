@@ -1,31 +1,32 @@
 const Projects = () => {
   return (
-    <div id="projects" className="pt-28 h-screen w-full bg-stone-200 flex flex-row">
-      <div className="basis-1/3 flex justify-center items-center">
-        <h1 className="text-6xl text-center">
+    <div id="projects" className="pt-28 h-screen w-full bg-stone-200 
+                                flex flex-col justify-center items-center space-y-10">
+      <div className="flex justify-center items-center">
+        <h1 className="text-7xl text-center">
             Projects
         </h1>       
       </div>
-      <div className="basis-2/3 flex justify-center items-center">
-        <table className="table-auto text-left">
+      <div className="flex justify-center items-center">
+        <table className="table-auto text-left border border-stone-400">
           <thead className="uppercase bg-stone-400">
             <tr>
-              <th className="py-3 px-6">Project Name</th>
-              <th className="py-3 px-6">Technologies Used</th>
+              <th className="py-3 px-6 text-3xl">Project Name</th>
+              <th className="py-3 px-6 text-3xl">Technologies Used</th>
             </tr>
           </thead>
           <tbody>
             <tr className="border-b border-stone-400">
-              <td className="py-3 px-6">Task Tracker System</td>
-              <td className="py-3 px-6">React, NextJS, TailWindCSS</td> 
+              <td className="py-3 px-6 text-2xl">Task Timer</td>
+              <td className="py-3 px-6 text-2xl">React, NextJS, TailWindCSS</td> 
             </tr>
             <tr className="border-b border-stone-400">
-              <td className="py-3 px-6">This Website</td>
-              <td className="py-3 px-6">React, TailWindCSS</td>
+              <td className="py-3 px-6 text-2xl">This Website</td>
+              <td className="py-3 px-6 text-2xl">React, TailWindCSS</td>
             </tr>
             <tr className="border-b border-stone-400">
-              <td className="py-3 px-6">Sorting Algorithm Visualizer</td>
-              <td className="py-3 px-6">Python</td>
+              <td className="py-3 px-6 text-2xl">Sorting Algorithm Visualizer</td>
+              <td className="py-3 px-6 text-2xl">Python</td>
             </tr>
           </tbody>
         </table>

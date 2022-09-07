@@ -26,18 +26,29 @@ module.exports = {
             transform: "translateY(0)",
           },
         },
+        "fade-in-right": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(10px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
         liquid: {
           "0%": {
             transform: "translateY(0) rotate(0deg)",
           },
           "100%": {
-            transform: "translateY(-100%) rotate(500deg)",
+            transform: "translateY(-100%) rotate(360deg)",
           },
         },
       },
       animation: {
-        "fade-in-down": "fade-in-down 1s ease-out",
-        "liquid-fill": "liquid 10s ease-in-out infinite",
+        "fade-in-down": "fade-in-down 3s ease-out",
+        "fade-in-right": "fade-in-right 3s ease-out",
+        "liquid-fill": "liquid 6.5s ease-in-out 1 forwards",
       },
     },
   },
